@@ -1,0 +1,15 @@
+C:\Users\ASUS\OneDrive\Documents\Iqnaz\KPL\TPMOD6\TPMOD6_1302210104\bin\Debug\net6.0\TPMOD6_1302210104.exe
+C:\Users\ASUS\OneDrive\Documents\Iqnaz\KPL\TPMOD6\TPMOD6_1302210104\bin\Debug\net6.0\TPMOD6_1302210104.deps.json
+C:\Users\ASUS\OneDrive\Documents\Iqnaz\KPL\TPMOD6\TPMOD6_1302210104\bin\Debug\net6.0\TPMOD6_1302210104.runtimeconfig.json
+C:\Users\ASUS\OneDrive\Documents\Iqnaz\KPL\TPMOD6\TPMOD6_1302210104\bin\Debug\net6.0\TPMOD6_1302210104.dll
+C:\Users\ASUS\OneDrive\Documents\Iqnaz\KPL\TPMOD6\TPMOD6_1302210104\bin\Debug\net6.0\TPMOD6_1302210104.pdb
+C:\Users\ASUS\OneDrive\Documents\Iqnaz\KPL\TPMOD6\TPMOD6_1302210104\obj\Debug\net6.0\TPMOD6_1302210104.csproj.AssemblyReference.cache
+C:\Users\ASUS\OneDrive\Documents\Iqnaz\KPL\TPMOD6\TPMOD6_1302210104\obj\Debug\net6.0\TPMOD6_1302210104.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\OneDrive\Documents\Iqnaz\KPL\TPMOD6\TPMOD6_1302210104\obj\Debug\net6.0\TPMOD6_1302210104.AssemblyInfoInputs.cache
+C:\Users\ASUS\OneDrive\Documents\Iqnaz\KPL\TPMOD6\TPMOD6_1302210104\obj\Debug\net6.0\TPMOD6_1302210104.AssemblyInfo.cs
+C:\Users\ASUS\OneDrive\Documents\Iqnaz\KPL\TPMOD6\TPMOD6_1302210104\obj\Debug\net6.0\TPMOD6_1302210104.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive\Documents\Iqnaz\KPL\TPMOD6\TPMOD6_1302210104\obj\Debug\net6.0\TPMOD6_1302210104.dll
+C:\Users\ASUS\OneDrive\Documents\Iqnaz\KPL\TPMOD6\TPMOD6_1302210104\obj\Debug\net6.0\refint\TPMOD6_1302210104.dll
+C:\Users\ASUS\OneDrive\Documents\Iqnaz\KPL\TPMOD6\TPMOD6_1302210104\obj\Debug\net6.0\TPMOD6_1302210104.pdb
+C:\Users\ASUS\OneDrive\Documents\Iqnaz\KPL\TPMOD6\TPMOD6_1302210104\obj\Debug\net6.0\TPMOD6_1302210104.genruntimeconfig.cache
+C:\Users\ASUS\OneDrive\Documents\Iqnaz\KPL\TPMOD6\TPMOD6_1302210104\obj\Debug\net6.0\ref\TPMOD6_1302210104.dll
