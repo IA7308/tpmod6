@@ -1,4 +1,6 @@
-﻿using System.Security.Cryptography;
+﻿using System.Diagnostics;
+using System.Diagnostics.Contracts;
+using System.Security.Cryptography;
 
 public class SayaTubeVideo
 {
@@ -8,6 +10,9 @@ public class SayaTubeVideo
 
     public SayaTubeVideo(string tittle)
     {
+        //prekondisi
+        Contract.Requires(tittle.Length <= 100 && tittle != null);
+        
         this.tittle = tittle;
         this.playCount = 0;
         Random random = new Random();
@@ -16,7 +21,23 @@ public class SayaTubeVideo
 
     public void IncreasePlayCount(int playCount)
     {
-        this.playCount = this.playCount + playCount;
+        //prekondisi
+        Contract.Requires(playCount <= 10000000);
+
+        //exceptions
+        try
+        {
+            checked
+            {
+                this.playCount = this.playCount + playCount;
+            }
+        }
+        catch (OverflowException OverExcept) 
+        { 
+            Console.WriteLine("jumlah penambahan playcount melebihi batas " + OverExcept);
+            //throw new OverflowException("jumlah penambahan playcount melebihi batas " + OverExcept);
+        }
+        
     }
 
     public void PrintVideoDetails()
@@ -28,9 +49,12 @@ public class SayaTubeVideo
     {
         SayaTubeVideo Video = new SayaTubeVideo("Tutorial Design By Contract - [Iqnaz_Nadhif]");
         Video.PrintVideoDetails();
-        Video.IncreasePlayCount(1);
-        Video.PrintVideoDetails();
-        Video.IncreasePlayCount(2);
-        Video.PrintVideoDetails();
+        Video.IncreasePlayCount(1123);
+        Video.PrintVideoDetails() ; 
+        for(int i = 0; i < 1000000000;)
+        {
+            Video.IncreasePlayCount(i);
+            i = i + 100000000;
+        }
     }
 }
